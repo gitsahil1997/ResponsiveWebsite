@@ -172,6 +172,9 @@ footer {
       "top-box-a"
       "top-box-b";
   }
+  .main-nav ul {
+    grid-template-columns: 1fr;
+  }
   .boxes {
     grid-template-columns: 1fr;
   }
