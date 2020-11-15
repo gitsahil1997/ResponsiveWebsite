@@ -165,7 +165,7 @@ footer {
 
 /* Media Queries */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 576px) {
   .top-container {
     grid-template-areas:
       "showcase"
