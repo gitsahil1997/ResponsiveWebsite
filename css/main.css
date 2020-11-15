@@ -162,10 +162,9 @@ footer {
   text-align: center;
   padding: 1rem;
 }
-
 /* Media Queries */
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 768px) {
   .top-container {
     grid-template-areas:
       "showcase"
@@ -188,39 +187,5 @@ footer {
     display: block;
     width: 90%;
     text-align: center;
-  }
-}
-@media screen and (min-width: 768px) {
-  .top-container {
-    grid-template-areas:
-      "showcase top-box-a"
-      "showcase top-box-b";
-  }
-
-  .showcase h1 {
-    font-size: 2.5rem;
-  }
-
-  .main-nav ul {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .boxes {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .info {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .info img {
-    height: 100%;
-    filter: blur(0);
-    transform: translateZ(0);
-  }
-  .info .btn {
-    width: 20%;
-  }
-  .portfolio {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
